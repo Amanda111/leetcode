@@ -13,7 +13,7 @@ var containsDuplicate = function(nums) {
         if(value in hash){
             return true;
         }else{
-            hash[value] = "haha";
+            hash[value] = null;
         }
         i++;
     }
